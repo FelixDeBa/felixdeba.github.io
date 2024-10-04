@@ -1,0 +1,235 @@
+/*Area para buscar brechas en contraseñas*/
+.pwdfinder-card{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    width: auto;
+    height: 200px;
+    background-color: #ebf0fc;
+    margin: 5px;
+    height: auto;
+    padding: 0% 5%;
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    color: gray;
+    background-color: #b1b4ba;
+}
+
+.find-button{
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    
+    margin-top: 0px;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.find-button:hover,
+.find-button:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.find-button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.find-button:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.alternate-big-title{
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin-bottom: 0px;
+    padding: 3% 0 0 0;
+}
+
+
+.password-box, .apikey-box, .usr-box{
+    margin-right: 10px;
+}
+
+.password-result-area{
+    display: none;
+}
+
+/*Area para las noticias de seguridad*/
+
+.secnews-card{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    width:auto;
+    
+    height: auto;
+    background-color: #ebf0fc;
+    margin: 5px;
+    position: sticky;
+    right:1%;
+    top:auto;
+    left: 99%;
+}
+
+.refresh-button{
+    border-radius: 0px 10px 0px 0px;
+    height: auto;
+    position: sticky;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    left: 100%;
+    background-color: #cbced4;
+}
+.refresh-button:hover{
+    background-color: #b1b4ba;
+}
+.refresh-button:active{
+    background-color: #cbced4;
+}
+
+.btn-ref{
+    font-size: 15px;    
+}
+
+.news-text{
+    padding: 0% 5% 5%;
+    position: relative;
+    top: 0px;
+}
+
+.breach-title{
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+.breach-date{
+    margin-top: 0px;
+    font-size: .9em;
+}
+
+/*Area para la busqueda de usuarios*/
+/* .userfinder-card */
+.filehasher-card{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    width: auto;
+    padding: 3% 5%;
+    height: auto;
+    background-color: #ebf0fc;
+    margin: 5px;
+}
+
+.inner-title{
+    /* padding: 3% 0 3% 0; */
+    /* background-color: #cbced4; */
+    display: flex;
+    border-radius: 10px 0px 0px 0px;
+    width: auto;
+}
+
+.card-title{
+    display : flex;
+    flex-direction : row;
+    border-radius: 10px 10px 0px 0px;
+    background-color:#cbced4;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.userfinder-card{
+    border-radius: 10px;
+    width:100%;
+    height: auto;
+    background-color: #ebf0fc;
+    margin: 5px;
+    position: sticky;
+    top:auto;
+    padding: 2%;
+}
+
+.descriptive-label{
+    margin-right: 10px;
+}
+
+.default-card{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    width: auto;
+    padding: 3% 5%;
+    height: auto;
+    background-color: #ebf0fc;
+    margin: 5px;
+}
+
+.centered-div{
+    /* align-items: center; */
+    text-align: center;
+}
+
+.error-text-mini{
+    font-size: .7em;
+    color: red;
+    margin: 0px 0px 15px 0px;
+}
+
+.input-with-message{
+    margin: auto auto 0px auto
+}
+
+.spacer-15{
+    height: 15px;
+}
+
+.big-card{
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    width: auto;
+    padding: 3% 5%;
+    height: auto;
+    background-color: #ebf0fc;
+    margin: 5px;    
+}
+.dashboard-title{
+    font-size: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:2%;
+    color: #636263;
+}
+
+.title-container{
+    border-bottom: 2px solid #636263;
+    margin-bottom: 20px;
+}
+
+.main-screen{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.card-row{
+    display : flex;
+    flex-direction : row;
+}
